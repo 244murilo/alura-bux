@@ -9,3 +9,12 @@
     h1 {
     background-color: white;
     }
+    @import url("header.css");
+
+    :root {
+    --cor-de-fundo: #EBECEE;
+    }
+    
+    body{
+    background-color: var(--cor-de-fundo);
+    }
